@@ -1,2 +1,6 @@
 language: javascript
+jobs:
+  include:
+    -stage:Test
+    script: ./mvnw clean test
 notifications: email:jorammanoah1@gmail.com
